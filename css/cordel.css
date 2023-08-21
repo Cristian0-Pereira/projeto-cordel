@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/* Fonte do poema */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+/* Fonte do título */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); */
+
+:root{
+    --font-padrao: Verdana, Geneva, Tahoma, sans-serif;
+    --font-title: 'Cinzel', serif;
+    --font-poema: 'Satisfy', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+header{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 4rem;
+    height: 25rem;
+}
+
+header h1{
+    font-family: var(--font-title);
+    font-size: 8rem;
+}
+header p{
+    font-family: var(--font-padrao);
+    font-size: 1.5rem;
+}
+header a{
+    font-family: var(--font-poema);
+    font-size: 2rem;
+    color: #ffebcd;
+    text-decoration: none;
+}
+header a:hover{
+    color: rgb(56, 48, 48);
+    transition: .4s linear;
+    background-image: linear-gradient(to bottom, yellow, white 60%);
+}

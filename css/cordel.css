@@ -28,13 +28,17 @@ header{
     padding: 4rem;
     background-size: contain;
 }
+i{
+    color: white;
+    font-size: 1.6rem;
+}
 header h1{
     padding-top: 5rem;
     font-family: var(--font-title);
     font-size: 6.5vw;
-    background: linear-gradient(to top, #ffffff 20%, #ff0000 100%);
     letter-spacing: -1rem;
     word-spacing: 3rem;
+    background: linear-gradient(to top, #ffffff 20%, #ff0000 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -45,13 +49,10 @@ header p{
 header a{
     font-family: var(--font-poema);
     font-size: 2rem;
-    color: #ffebcd;
-    text-decoration: none;
-}
-header a:hover{
-    color: #e0d7cc;
-    transition: .4s linear;
-    text-decoration: underline;
+    font-weight: bold;
+    background: linear-gradient(to right, red, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 section{
     font-family: var(--font-poema);
@@ -87,7 +88,29 @@ section > p{
 #img02{
     background-image: url('../img/background002.jpg');
 }
-
+footer{
+    background-color: black;
+    padding: 2rem;
+    color: white;
+}
+footer p{
+    font-family: var(--font-padrao);
+    font-size: 1.7rem;
+    text-align: center;
+}
+footer a{
+    font-family: var(--font-padrao);
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: #e6d6a1;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
 
 @media (max-width: 800px) {
     header h1 {

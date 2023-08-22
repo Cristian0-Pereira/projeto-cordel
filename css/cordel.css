@@ -95,12 +95,12 @@ footer{
 }
 footer p{
     font-family: var(--font-padrao);
-    font-size: 1.7rem;
+    /* font-size: 1.7rem; */
     text-align: center;
 }
 footer a{
     font-family: var(--font-padrao);
-    font-size: 1.7rem;
+    /* font-size: 1.7rem; */
     font-weight: bold;
     font-style: italic;
     text-decoration: none;
@@ -111,7 +111,9 @@ footer a:hover{
     /* -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
 }
-
+.rodape{
+    font-size: 1.5vw;
+}
 @media (max-width: 800px) {
     header h1 {
         letter-spacing: -.5rem;
@@ -119,5 +121,8 @@ footer a:hover{
     }
     section {
         font-size: 7vw;
+    }
+    .rodape{
+        font-size: 2.4vw;
     }
 }
